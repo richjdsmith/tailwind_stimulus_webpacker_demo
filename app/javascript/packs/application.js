@@ -36,6 +36,5 @@ application.load(definitionsFromContext(context))
 import "../stylesheets/application.scss"
 
 require.context('../images/', true, /\.(gif|jpg|png|svg)$/i)
-
-// then within the views, you can call it by using
-// console.log(imagePath('./user.png')) // it's relative to context
+// Now within the views, you can call images using
+// <%= image_tag(asset_pack_path('images/abc.svg')) %>

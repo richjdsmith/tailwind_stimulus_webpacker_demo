@@ -1,5 +1,5 @@
 {
-  "name": "thegoodvine_app",
+  "name": "tailwind_stimulus_webpacker_demo",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",
