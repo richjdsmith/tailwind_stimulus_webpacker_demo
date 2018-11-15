@@ -34,3 +34,8 @@ application.load(definitionsFromContext(context))
 
 // Import our project's application stylesheet, which happens to contain our Tailwind stuff.
 import "../stylesheets/application.scss"
+
+require.context('../images/', true, /\.(gif|jpg|png|svg)$/i)
+
+// then within the views, you can call it by using
+// console.log(imagePath('./user.png')) // it's relative to context
