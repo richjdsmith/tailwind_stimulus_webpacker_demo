@@ -1,0 +1,11 @@
+.btn {
+  @apply .font-bold .py-2 .px-4 .rounded-sm;
+
+  &.btn-blue {
+    @apply .bg-purple .text-white;
+  }
+
+  &:hover {
+    @apply .bg-purple-light;
+  }
+}

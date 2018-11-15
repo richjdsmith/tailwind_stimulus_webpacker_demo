@@ -26,6 +26,7 @@ module ThegoodvineApp
       g.test_framework  false
       g.stylesheets     false
       g.javascripts     false
+      g.channel         assets: false
     end
 
     # Settings in config/environments/* take precedence over those specified here.
