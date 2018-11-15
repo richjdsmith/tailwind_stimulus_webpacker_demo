@@ -31,3 +31,6 @@ import {
 const application = Application.start()
 const context = require.context("controllers", true, /.js$/)
 application.load(definitionsFromContext(context))
+
+// Import our project's application stylesheet, which happens to contain our Tailwind stuff.
+import "../stylesheets/application.css"

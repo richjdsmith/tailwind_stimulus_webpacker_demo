@@ -1,12 +1,12 @@
-<div data-controller="hello">
-  <h1>Oh Hey There!</h1>
-  <p>This is a big test to see if stimulis works. Lets see: <span data-target="hello.output"></span></p>
+<div data-controller="hello" class="m-4">
+  <h1 class="text-orange text-xl ">Oh Hey There!</h1>
+  <p class="text-orange-dark">This is a big test to see if stimulis works. Lets see: <span class="text-red font-bold" data-target="hello.output"></span></p>
 </div>
 <hr>
-<div data-controller="clipboard members dashboard">
+<div data-controller="clipboard" class="m-4">
   PIN
-  <input type="text" data-target="clipboard.source" value="1234" readonly>
-  <button data-action="clipboard#copy" class="clipboard-button">
+  <input type="text" class="border rounded p-2" data-target="clipboard.source" value="1234" readonly>
+  <button class="text-grey-lighter bg-orange-darker p-2 rounded-sm shadow hover:bg-red-darker hover:text-grey" data-action="clipboard#copy" class="clipboard-button">
     Copy to Clipboard
   </button>
 </div>
