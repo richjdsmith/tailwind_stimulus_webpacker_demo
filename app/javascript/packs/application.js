@@ -29,7 +29,7 @@ import {
   definitionsFromContext
 } from "stimulus/webpack-helpers"
 const application = Application.start()
-const context = require.context("controllers", true, /.js$/)
+const context = require.context("controllers", true, /\.js(\.erb)?$/)
 application.load(definitionsFromContext(context))
 
 // Import our project's application stylesheet, which happens to contain our Tailwind stuff.
